@@ -11,7 +11,7 @@ exports.bookinstance_list = function(req, res, next) {
         res.render('bookinstance_list', { title: 'Book Instance List', bookinstance_list: list_bookinstances });
       });
       
-  };
+};
 
 // Display detail page for a specific BookInstance.
 exports.bookinstance_detail = function(req, res) {
